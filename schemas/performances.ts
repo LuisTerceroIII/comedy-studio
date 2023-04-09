@@ -12,7 +12,8 @@ export default defineType({
             type: 'datetime',
             description: 'Select start date and time',
             options: {
-                timeFormat: 'HH:mm'
+                dateFormat: 'YYYY-MM-DD',
+                timeFormat: 'HH:mm',
             }
         }),
     ]

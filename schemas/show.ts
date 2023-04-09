@@ -14,6 +14,18 @@ export default defineType({
             description: 'Name of the place'
         }),
         defineField({
+            name:"id",
+            title:"Identification-slug",
+            type: 'slug',
+            description: "Used to generate the url of the show"
+        }),
+        defineField({
+            name:"description",
+            title:"description",
+            type: 'blockContent',
+            description: "Show description"
+        }),
+        defineField({
             name: 'locationAddress',
             title: "Address",
             type: 'string'
